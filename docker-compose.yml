@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  titiler:
+    image: developmentseed/titiler:0.18.6
+    ports:
+      - "8000:8000"
+    environment:
+      - AWS_NO_SIGN_REQUEST=YES
+    restart: unless-stopped

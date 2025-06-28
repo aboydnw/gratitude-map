@@ -17,7 +17,7 @@ export default function Map() {
         style: 'https://tiles.stadiamaps.com/styles/outdoors.json', // Free outdoors style
         center: [-98.5, 39.8], // Center of US
         zoom: 4,
-        attributionControl: true,
+        attributionControl: false,
       });
 
       // Add navigation controls
